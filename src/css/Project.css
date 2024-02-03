@@ -52,7 +52,7 @@ body {
 }
 
 .project-2 {
-    animation: fade-customized 2s;
+    animation: fade-customized3 2s;
 }
 
 .project-1,
@@ -63,6 +63,7 @@ body {
 @media(min-width: 992px) {
     .project-2 {
         transform: translateY(150px);
+        animation: fade-customized 2s;
     }
 }
 
@@ -77,7 +78,17 @@ body {
         transform: translateY(150px) scale(1);
     }
 }
+@keyframes fade-customized3 {
+    0% {
+        opacity: 0;
+        transform: translateY(-150px) scale(0.9);
+    }
 
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
 @keyframes fade-customized2 {
     0% {
         opacity: 0;

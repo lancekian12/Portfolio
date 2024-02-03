@@ -16,8 +16,8 @@ function App() {
                 <Routes>
                     <Route path='/portfolio/' element={<Main />} />
                     <Route path="/portfolio/Project" element={<Project />} />
-                    <Route path="/portfolio//Contact" element={<Contact />} />
-                    <Route path="/portfolio//About" element={<About />} />
+                    <Route path="/portfolio/Contact" element={<Contact />} />
+                    <Route path="/portfolio/About" element={<About />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>
