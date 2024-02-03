@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-content {
+    margin-top: 150px;
+    margin-bottom: 350px;
+}
+
+.container {
+    margin-bottom: 10vh;
+}
+
+.me {
+    border-radius: 50%;
+    border: 4px solid rgb(37, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.me:hover {
+    border: 4px solid rgb(178, 169, 118);
+
+}
+
+.about-me {
+    color: white;
+    animation: fade-left 2s;
+}
+
+.mypicture {
+    animation: fade-right 2s;
+}
+
+.about-me h2 {
+    margin-bottom: 20px;
+    border: 2px solid white;
+    width: fit-content;
+    padding: 10px;
+    background: rgb(29, 28, 29);
+    background: linear-gradient(90deg, rgba(29, 28, 29, 1) 0%, rgba(18, 14, 14, 1) 50%, rgba(48, 46, 46, 1) 100%);
+}
+
+.about-me h3 {
+    color: rgb(217, 209, 209);
+}
+
+.vector img {
+    width: 80%;
+    opacity: 0.5;
+}
+
+.container {
+    margin-bottom: 50px;
+}
+
+.planet {
+    transform: translate(-550px, -300px);
+    animation: fade-customized2 2s;
+}
+
+.planet2 {
+    position: absolute;
+    transform: translate(500px);
+    overflow: hidden;
+}
+
+.typing-animation {
+    display: inline-block;
+}
+
+h1 {
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    color: white;
+    white-space: nowrap;
+    animation: typing 2s steps(50, end);
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}

@@ -1,0 +1,69 @@
+body {
+    background: url("https://wallpapers.com/images/featured/black-galaxy-background-mdp0rqi0ijqvfby2.jpg");
+    background-size: cover;
+    margin: 0px;
+}
+
+.navigation {
+    animation: fade-down 2s;
+}
+
+.nav-new {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    margin-right: 1.5em;
+    padding: 0 5px;
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.nav-new:hover {
+    color: rgb(178, 169, 118);
+    transform: scale(1.2, 1.2);
+    font-size: 25px;
+}
+
+.active {
+    background-color: #007E85;
+    border-radius: 2rem;
+    display: inline-block;
+    color: white;
+}
+
+#mylogo {
+    width: 130px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+a.navbar-brand {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.icons2 a {
+    text-decoration: none;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    transition: all 0.4s;
+    transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.icons2 i {
+    font-size: 1.5em;
+    color: white;
+    opacity: 1;
+}
+
+.icons2 i:hover {
+    color: rgb(178, 169, 118);
+    transform: scale(1.2, 1.2);
+    font-size: 1.7em;
+}

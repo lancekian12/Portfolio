@@ -1,0 +1,123 @@
+.myself {
+    text-align: center;
+    color: white;
+}
+
+.box {
+    border-radius: 5px;
+    border: 2px solid rgb(39, 38, 38);
+    margin-top: 30px;
+}
+
+.box h2 {
+    margin-top: 20px;
+    animation: fade-down 2s;
+}
+
+.box p {
+    text-align: left;
+    animation: fade-right 2s;
+}
+
+.box a {
+    animation: fade-right 2s;
+}
+
+.box img {
+    animation: fade-left 2s;
+}
+
+.skills {
+    color: white;
+    margin-right: 150px;
+    margin-top: 50px;
+    animation: fade-left 2s;
+}
+
+.TopSkills {
+    margin-left: 100px;
+}
+
+.card {
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 6px solid white;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background-color: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+}
+
+.card:hover .card-body {
+    right: 0;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+
+.card-sub-title {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+}
+
+.card-info {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px 0;
+    color: white;
+}
+
+
+@media(max-width: 553px) {
+    .card {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 764px) {
+    .card {
+        margin-left: 150px;
+    }
+}
+
+@media(min-width: 1000px) {
+    .card {
+        margin-left: 50px;
+    }
+}
+
+@media(min-width: 1400px) {
+    .card {
+        margin-left: 0px;
+    }
+}

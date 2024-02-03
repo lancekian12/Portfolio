@@ -1,0 +1,139 @@
+body {
+    font-family: Roboto;
+}
+
+.project-section h2 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.project-section {
+    margin-bottom: 200px;
+}
+
+.projects {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.projects h3 {
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.projects p {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.project-1 {
+    margin-right: 20px;
+}
+
+.project-1 img {
+    max-width: 100%;
+}
+
+.project-2 img {
+    width: 150px;
+}
+
+.project-3 img {
+    max-width: 100%;
+}
+
+.project-2 {
+    animation: fade-customized 2s;
+}
+
+.project-1,
+.project-3 {
+    animation: fade-up 2s;
+}
+
+@media(min-width: 992px) {
+    .project-2 {
+        transform: translateY(150px);
+    }
+}
+
+@keyframes fade-customized {
+    0% {
+        opacity: 0;
+        transform: translateY(-150px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(150px) scale(1);
+    }
+}
+
+@keyframes fade-customized2 {
+    0% {
+        opacity: 0;
+        transform: translateX(-650px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(-550px, -300px);
+    }
+}
+
+@keyframes fade-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-150px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(150px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes fade-right {
+    0% {
+        opacity: 0;
+        transform: translateX(150px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes fade-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-150px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
